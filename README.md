@@ -17,7 +17,15 @@ In time, it is hoped that several configurations are developed, so collaboration
 
 
 # Technical hurdles
-The blackbird has a unique camshaft trigger pattern situated on its exhaust camshaft. It is comprised of a 3-tooth trigger wheel. Two teeth are exactly 180 degrees apart with the remain spoke being offset by 30 camshaft degrees. Since this pattern is unique to Keihin and not immediately catered for by most ECU systems on the market, a separate up-coming repository of a ‘Tooth-Eater’ will be available. The ‘Tooth-Eater’ is in effect an edge counter that reads incoming positive edges as produced by the camshaft trigger. In effect, it removes (eats) two of the teeth edges and allows the single remaining edge to pass through to the standalone ECU. Most systems on the market today are available to process a single tooth from the camshaft in their configuration.
+The Honda Blackbird (and other CBR's of that era) has a unique camshaft trigger pattern situated on its exhaust camshaft. It is comprised of a 3-tooth trigger wheel. Two teeth are exactly 180 degrees apart with the remaining tooth being offset by 30 camshaft degrees. Since this pattern is unique to Keihin and not immediately catered for by most ECU systems on the market, a separate up-coming repository named ‘Tooth-Eater’ will be available during sometime in 2026. The ‘Tooth-Eater’ is in effect an edge counter that reads incoming positive edges as produced by the camshaft trigger. It works as an intermediary between the camshaft and the standalone ECU by removing (eating) two of the teeth edges. This allows the single remaining tooth edge to pass through to the standalone ECU. Most systems on the market today are available to process a single tooth from the camshaft in their trigger configuration. This effort attempts to widen the ECU of choice for the Blackbird, again in the spirit of keeping it alive.
 
-The repository named ‘AdapterBoard’ aims to connect a standalone system to the bikes stock wiring harness. 
+The Tooth-Eater is in its final stages of development and shown to work well in bench testing. After it is proven to work on the motorcycle, it will be made available in the 'ToothEater' repository.
+
+The repository named ‘AdapterBoard’ aims to connect a standalone system to the bikes stock wiring harness.
+
+The 'Documentation' repository currently holds the Keihin pinout assignments. In the future, this repository will also hold an open document for standalone ECU conversions.
+
+If you wish to contact me, you can do so at: 
+
+    Blackbird-Standalone@proton.me
 
