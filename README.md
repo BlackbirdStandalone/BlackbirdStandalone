@@ -46,7 +46,8 @@ The Tooth-Eater firmware is in its final stages of development and shown to work
 <tr> 
 
 <td width="20%">
-<strong>AdapterBoard</strong>
+<strong><a href="https://github.com/BlackbirdStandalone/AdapterBoard" target="_blank">AdapterBoard</a>
+</strong>
 </td>
 
 <td width="80%">
@@ -59,7 +60,7 @@ The ‘AdapterBoard’ repository provides an interface to connect a standalone 
 <tr>
 
 <td width="20%">
-<strong>Documentation</strong>
+<strong><a href="https://github.com/BlackbirdStandalone/Documentation" target="_blank">Documentation</a></strong>
 </td>
 
 <td width="80%">
@@ -72,7 +73,7 @@ The 'Documentation' repository currently holds the Keihin pinout assignments. In
 <tr>
 
 <td width="20%">
-<strong>ToothEater</strong>
+<strong><a href="https://github.com/BlackbirdStandalone/ToothEater" target="_blank">ToothEater</a></strong>
 </td>
 
 <td width="80%">
