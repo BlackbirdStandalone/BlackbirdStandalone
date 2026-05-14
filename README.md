@@ -51,7 +51,7 @@ In the past, others have worked around this cam trigger issue by lopping off two
 <br />
 
 <p>
-The Tooth-Eater firmware is in its final stages of development and shown to work well in bench testing up to 20,000 RPM. After it is proven to work on the motorcycle, it will be made available in the 'ToothEater' repository.
+The Tooth-Eater firmware is in its final stages of development and shown to work well in bench testing up to 20,000 RPM. After it is proven to work on the motorcycle, it will be made available in the 'ToothEater' repositories.
 </p>
 
 <br /><br />
@@ -60,7 +60,7 @@ The Tooth-Eater firmware is in its final stages of development and shown to work
 <table border="1">
 
 <tr> 
-<td width="20%">
+<td width="40%">
 <strong><a href="https://github.com/BlackbirdStandalone/AdapterBoard" target="_blank">AdapterBoard</a>
 </strong>
 </td>
@@ -71,18 +71,37 @@ The ‘AdapterBoard’ repository provides an interface to connect a standalone 
 </tr>
 
 <tr>
-<td width="20%">
-<strong><a href="https://github.com/BlackbirdStandalone/ToothEater" target="_blank">ToothEater</a></strong>
+<td width="40%">
+<strong><a href="https://github.com/BlackbirdStandalone/ToothEater-Firmware" target="_blank">ToothEater-Firmware</a></strong>
 </td>
 
 <td width="80%">
-The Tooth Eater project. This repository describes the technical operation, firmware and PCB design. This allows you to build a unit for yourself and use it on your bike as you see fit, selecting your own ECU of choice.
+The Tooth Eater firmware. This repository describes the technical operation of the Tooth Eater and contains the firmware source & simulation files.
 </td>
 </tr>
 
+<tr>
+<td width="40%">
+<strong><a href="https://github.com/BlackbirdStandalone/ToothEater-HW-THT" target="_blank">ToothEater-HW-THT</a></strong>
+</td>
+
+<td width="80%">
+The Tooth Eater hardware (Through-Hole version). This repository contains the through hole version of the tooth eater hardware. It contains schematics, PCB and gerber files. This through hole version is intended with DIY in mind.
+</td>
+</tr>
 
 <tr>
-<td width="20%">
+<td width="40%">
+<strong><a href="https://github.com/BlackbirdStandalone/ToothEater-HW-SMD" target="_blank">ToothEater-HW-SMD</a></strong>
+</td>
+
+<td width="80%">
+The Tooth Eater hardware (SMD version). This repository contains the surface mount version of the tooth eater hardware. It contains schematics, PCB and gerber files. This SMD version is intended to be an completed unit or built as DIY using SMD components.
+</td>
+</tr>
+
+<tr>
+<td width="40%">
 <strong><a href="https://github.com/BlackbirdStandalone/Documentation" target="_blank">Documentation</a></strong>
 </td>
 
