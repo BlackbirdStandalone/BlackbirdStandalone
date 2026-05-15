@@ -16,11 +16,13 @@ This project is not for everyone but may be of interest to individuals with tech
 This project also attempts be stand alone ECU agnostic, favouring no particular system. In time, it is hoped that configurations become available to suit multiple standalone systems on the market, so collaboration is encouraged.
 </p>
 <p>
-This project is a continual work in progress and aims to have a working system in iterative steps. The final road map is the availability of a drop in ‘plug & play’ system.
+This project is a continual work in progress and aims to have a working system in iterative steps with the final road map being a ‘plug & play’ system (or approaching it).
+<br /><br />
+To date, my Honda Blackbird is running successfully on RusEFI (I.e. 'microRusEFI' specifically) in conjunction with a Tooth Eater module that I have developed (read below). This tooth eater module should work with any Honda model using the cam 3-spoke trigger pattern and should also work with any stand alone ECU that can be configured to accept a single cam pulse per engine cycle (I.e. most aftermarket systems).
 </p>
 
 <p>
-The software, hardware and respective designs are provided “as is” under permissive licences and without any warranty, express or implied. The author has presented this effort in good faith so that it is useful to those interested. In no event shall the author be liable for any damages arising from the use of this material. Please read the licences and only continue if you are comfortable using it on your machinery in accordance with the terms and conditions of the attached licences.
+The software (firmware), hardware and respective designs are provided “as is” under permissive licences and without any warranty, express or implied. The author has presented this effort in good faith so that it is useful to those interested. In no event shall the author be liable for any damages arising from the use of this material. Please read the licences and only continue if you are comfortable using it on your machinery in accordance with the terms and conditions of the attached licences.
 </p>
 
 <br /><br />
@@ -51,7 +53,7 @@ In the past, others have worked around this cam trigger issue by lopping off two
 <br />
 
 <p>
-The Tooth-Eater firmware is in its final stages of development and shown to work well in bench testing up to 20,000 RPM. After it is proven to work on the motorcycle, it will be made available in the 'ToothEater' repositories.
+The Tooth Eater firmware is currently available in the 'ToothEater-Firmware' repository with the official release being 'v1.0'. The through-hole version of the PCB will become available soon (in 2026) as an official release after I have tested it thoroughly on the bike. It is intended to be DIY friendly. Afterward, the plan is to also release an even smaller SMD version of the PCB.
 </p>
 
 <br /><br />
