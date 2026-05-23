@@ -62,7 +62,7 @@ The Tooth Eater firmware is currently available in the 'ToothEater-Firmware' rep
 <table border="1">
 
 <tr> 
-<td width="40%">
+<td width="30%">
 <strong><a href="https://github.com/BlackbirdStandalone/AdapterBoard" target="_blank">AdapterBoard</a>
 </strong>
 </td>
@@ -73,7 +73,7 @@ The ‘AdapterBoard’ repository provides an interface to connect a standalone 
 </tr>
 
 <tr>
-<td width="40%">
+<td width="30%">
 <strong><a href="https://github.com/BlackbirdStandalone/ToothEater-Firmware" target="_blank">ToothEater-Firmware</a></strong>
 </td>
 
@@ -83,7 +83,7 @@ The Tooth Eater firmware. This repository describes the technical operation of t
 </tr>
 
 <tr>
-<td width="40%">
+<td width="30%">
 <strong><a href="https://github.com/BlackbirdStandalone/ToothEater-HW-THT" target="_blank">ToothEater-HW-THT</a></strong>
 </td>
 
@@ -93,7 +93,7 @@ The Tooth Eater hardware (Through-Hole version). This repository contains the th
 </tr>
 
 <tr>
-<td width="40%">
+<td width="30%">
 <strong><a href="https://github.com/BlackbirdStandalone/ToothEater-HW-SMD" target="_blank">ToothEater-HW-SMD</a></strong>
 </td>
 
@@ -103,12 +103,22 @@ The Tooth Eater hardware (SMD version). This repository contains the surface mou
 </tr>
 
 <tr>
-<td width="40%">
+<td width="30%">
 <strong><a href="https://github.com/BlackbirdStandalone/Documentation" target="_blank">Documentation</a></strong>
 </td>
 
 <td width="80%">
 The 'Documentation' repository currently holds the Keihin pinout assignments. In the future, this repository will also hold an open document for standalone ECU conversions.
+</td>
+</tr>
+
+<tr>
+<td width="30%">
+<strong><a href="https://github.com/BlackbirdStandalone/microRusEFI-Blackbird" target="_blank">microRusEFI-Blackbird</a></strong>
+</td>
+
+<td width="80%">
+The 'microRusEFI-Blackbird' repository is currently under construction. The settings are what I'm currently using on my running bike. Its intended as a guide only to help you get your bike running if you decide to use RusEFI or its variants. Many settings will overlap with the other inline-4 within the CBR family. I.e. CBR600, 929, 954 & CBR1000.
 </td>
 </tr>
 
