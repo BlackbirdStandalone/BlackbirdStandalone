@@ -28,7 +28,7 @@ The software (firmware), hardware and respective designs are provided “as is�
 <br /><br />
 # Technical hurdles
 <p>
-The Honda Blackbird (and other CBR's of that era) has a unique camshaft trigger pattern situated on its exhaust camshaft. It is comprised of a 3-tooth trigger wheel. Two teeth are exactly 180 degrees apart with the remaining tooth being offset by 30 camshaft degrees. Since this pattern is unique to Keihin and not immediately catered for by most ECU systems on the market, a separate repository named ‘ToothEater’ is made available (see link below). The ‘ToothEater’ is a small PCB about the size of a matchbox and is in effect an edge counter that reads incoming positive edges as produced by the camshaft trigger. It works as an intermediary between the camshaft and the standalone ECU by digitally removing (eating) two teeth edges. This allows the single remaining tooth edge to pass through to the standalone ECU. Most standalone systems on the market today are capable of processing a single tooth from the camshaft in their trigger configuration. This effort attempts to widen the choice of ECU for the Blackbird via a kind of 'compatibility mode'.
+The Honda Blackbird (and other CBR's of that era) has a unique camshaft trigger pattern situated on its exhaust camshaft. It is comprised of a 3-tooth trigger wheel. Two teeth are exactly 180 degrees apart with the remaining tooth being offset by 30 camshaft degrees. Since this pattern is unique to Keihin and not immediately catered for by most ECU systems on the market, a separate repository named ‘ToothEater’ is made available (see links below). The ‘ToothEater’ is a small PCB about the size of a matchbox and is in effect an edge counter that reads incoming positive edges as produced by the camshaft trigger. It works as an intermediary between the camshaft and the standalone ECU by digitally removing (eating) two teeth edges. This allows the single remaining tooth edge to pass through to the standalone ECU. Most standalone systems on the market today are capable of processing a single tooth from the camshaft in their trigger configuration. This effort attempts to widen the choice of ECU for the Blackbird via a kind of 'compatibility mode'.
 </p>
 <p>
 In the past, others have worked around this cam trigger issue by lopping off two teeth using a hacksaw. This works, but it also means that if you want to revert back to using the OEM unit you will need to get into the top end again and re-install part number 14405-MAT-E00' ROTOR PULSE.
@@ -53,7 +53,7 @@ In the past, others have worked around this cam trigger issue by lopping off two
 <br />
 
 <p>
-The Tooth Eater firmware is currently available in the 'ToothEater-Firmware' repository with the official release being 'v1.0'. The through-hole version of the PCB will become available soon (in 2026) as an official release after I have tested it thoroughly on the bike. It is intended to be DIY friendly. Afterward, the plan is to also release an even smaller SMD version of the PCB.
+Both the Tooth Eater firmware and hardware are available for use as a matched set.<br />The firmware is available in the <i>'ToothEater-Firmware'</i> repository with the latest official release being 'v1.1'.<br />The associated PCB is a through-hole design and is available in the <i>'ToothEater-HW-THT'</i> repository with its latest official release being 'v1.1'.<br />Construction is intended to be DIY friendly.
 </p>
 
 <br /><br />
@@ -89,16 +89,6 @@ The Tooth Eater firmware. This repository describes the technical operation of t
 
 <td width="80%">
 The Tooth Eater hardware (Through-Hole version). This repository contains the through hole version of the tooth eater hardware. It contains schematics, PCB and gerber files. This through hole version is intended with DIY in mind.
-</td>
-</tr>
-
-<tr>
-<td width="30%">
-<strong><a href="https://github.com/BlackbirdStandalone/ToothEater-HW-SMD" target="_blank">ToothEater-HW-SMD</a></strong>
-</td>
-
-<td width="80%">
-The Tooth Eater hardware (SMD version). This repository contains the surface mount version of the tooth eater hardware. It contains schematics, PCB and gerber files. This SMD version is intended to be an completed unit or built as DIY using SMD components.
 </td>
 </tr>
 
